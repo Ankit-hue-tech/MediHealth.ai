@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MediHealth.ai</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HERO -->
+        <h1>🛡 MediHealth.ai</h1>
+        <p class="tagline">
+            AI-powered system to detect fake & misleading health messages on social media
+        </p>
+
+        <!-- INPUT -->
+        <textarea id="message" placeholder="Paste WhatsApp / Instagram health message here..."></textarea>
+        <button onclick="analyzeMessage()">Run AI Analysis</button>
+
+        <!-- EXAMPLES -->
+        <div class="examples">
+            <h3>Try Examples</h3>
+            <button onclick="fillExample('This miracle pill cures diabetes in 3 days')">Miracle Cure</button>
+            <button onclick="fillExample('Drink cold water to cure cough')">Home Remedy</button>
+            <button onclick="fillExample('WHO recommends washing hands regularly')">Trusted Info</button>
+        </div>
+
+        <!-- RESULT -->
+        <div class="result">
+            <h3>AI Verdict</h3>
+            <p><b>Verdict:</b> <span id="verdict">—</span></p>
+            <p><b>Risk Level:</b> <span id="risk">—</span></p>
+            <p><b>AI Explanation:</b> <span id="reason">—</span></p>
+            <p class="suggestion" id="suggestion"></p>
+        </div>
+
+        <!-- HOW IT WORKS -->
+        <div class="how">
+            <h3>How It Works</h3>
+            <ol>
+                <li>User pastes a health-related message.</li>
+                <li>Python-based AI logic scans for misinformation patterns.</li>
+                <li>System calculates risk & explains why it is dangerous.</li>
+            </ol>
+        </div>
+
+        <!-- TECH -->
+        <div class="tech">
+            <h3>Technology Used</h3>
+            <p>Python • Flask • JavaScript • AI Rule-Based Analysis</p>
+        </div>
+
+        <!-- ETHICS -->
+        <p class="ethics">
+            ⚠️ This tool does not give medical advice. It only flags potential misinformation.
+        </p>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

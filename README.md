@@ -1,10 +1,12 @@
+## Live Demo
+Deployed soon (local demo available in video)
 # 🛡 MediHealth.ai
 
 An AI-powered web application to detect **fake and misleading health messages** commonly spread on **WhatsApp, Instagram, and social media platforms**.
 
 ---
 
-## 🚨 Problem Statement
+##  Problem Statement
 
 Fake health advice spreads rapidly on social media, leading to:
 - Dangerous self-medication
@@ -15,13 +17,13 @@ Most users cannot easily verify whether a forwarded message is trustworthy.
 
 ---
 
-## 💡 Solution
+##  Solution
 
 **MediHealth.ai** analyzes health-related messages and provides:
-- ✅ Misinformation risk score
-- ✅ Clear verdict (Safe / Misleading / High Risk)
-- ✅ AI-generated explanation
-- ✅ Trusted medical guidance (WHO / CDC)
+-  Misinformation risk score
+-  Clear verdict (Safe / Misleading / High Risk)
+-  AI-generated explanation
+-  Trusted medical guidance (WHO / CDC)
 
 Instead of just answering questions, it **prevents the spread of misinformation**.
 
@@ -35,7 +37,7 @@ Instead of just answering questions, it **prevents the spread of misinformation*
 
 ---
 
-## 🧠 Features
+##  Features
 
 - AI risk analysis of health messages
 - Explainable verdict (not black-box)
@@ -46,7 +48,7 @@ Instead of just answering questions, it **prevents the spread of misinformation*
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Backend:** Python, Flask  
 - **Frontend:** HTML, CSS, JavaScript  
@@ -55,19 +57,24 @@ Instead of just answering questions, it **prevents the spread of misinformation*
 
 ---
 
-## 📸 Demo
+##  Demo
 
 > Demo video and screenshots attached in submission.
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 MediHealth.ai does **not** provide medical advice.  
 It only flags potentially misleading health information and encourages consulting verified medical sources.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Built for Hackathon Submission
+## authors
+Ankit Gupta
+Sreesweta Roy
+Ayush Srivastava
+Prakhar

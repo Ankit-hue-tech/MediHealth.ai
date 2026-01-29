@@ -1,0 +1,67 @@
+body {
+    background: #0b1220;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+}
+
+h1 {
+    color: #4fd1ff;
+    text-align: center;
+}
+
+.tagline {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 90px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    background: #00bcd4;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.examples button {
+    margin-top: 5px;
+    background: #1f2a44;
+}
+
+.result,
+.how,
+.tech {
+    margin-top: 20px;
+    background: #111b34;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.suggestion {
+    color: #7CFC98;
+    margin-top: 8px;
+}
+
+.ethics {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #aaa;
+    text-align: center;
+}
